@@ -4,7 +4,12 @@ const Hero = () => {
   return (
     <section className={classes.hero}>
       <div className={classes.image}>
-        <Image src="/images/site/max.png" alt="an image showing Max" />
+        <Image
+          src="/images/site/max.png"
+          alt="an image showing Max"
+          width={300}
+          height={300}
+        />
       </div>
       <h1>Hi, I&apos;m MAx</h1>
       <p>
